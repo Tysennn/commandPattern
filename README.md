@@ -13,4 +13,4 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 # UML Class Diagram
 
-<img src="commandPattern/UML Diagram.png" alt="Description" width="500">
+![UML Diagram](UML Diagram.png)
