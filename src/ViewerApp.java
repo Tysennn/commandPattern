@@ -13,7 +13,7 @@ public class ViewerApp {
         remote.setCommand(new onTv(tv));
         remote.clickButton();
         
-        remote.setCommand(new channelChange(tv, 8));
+        remote.setCommand(new channelChange(tv, 12));
         remote.clickButton();
         
         remote.setCommand(new offTv(tv));
@@ -22,7 +22,7 @@ public class ViewerApp {
         remote.setCommand(new onLight(light));
         remote.clickButton();
         
-        remote.setCommand(new brightnessAdjust(light, 75));
+        remote.setCommand(new brightnessAdjust(light, 50));
         remote.clickButton();
         
         remote.setCommand(new offLight(light));
@@ -37,7 +37,7 @@ public class ViewerApp {
         remote.setCommand(new musicPlay(musicPlayer));
         remote.clickButton();
         
-        remote.setCommand(new volumeAdjust(musicPlayer, 20));
+        remote.setCommand(new volumeAdjust(musicPlayer, 40));
         remote.clickButton();
         
         remote.setCommand(new musicStop(musicPlayer));
