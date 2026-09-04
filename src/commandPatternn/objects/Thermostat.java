@@ -1,4 +1,4 @@
-package commandPattern;
+package commandPatternn;
 
 public class Thermostat {
 	private int temperature = 70;

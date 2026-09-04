@@ -1,4 +1,4 @@
-package commandPattern;
+package commandPatternn;
 
 public class MusicPlayer {
 	private int volume = 50;

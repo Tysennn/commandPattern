@@ -1,7 +1,7 @@
-package commandPattern;
+package commandPatternn;
 
-import commandPattern.methodCommands.*;
-import commandPattern.objects.*;
+import commandPatternn.methodCommands.*;
+import commandPatternn.objects.*;
 
 public class ViewerApp {
 	public static void main(String[] args){

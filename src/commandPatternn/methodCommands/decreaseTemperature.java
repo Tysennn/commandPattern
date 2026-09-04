@@ -1,7 +1,7 @@
-package commandPattern.methodCommands;
+package commandPatternn.methodCommands;
 
-import commandPattern.objects.*;
-import commandPattern.*;
+import commandPatternn.objects.*;
+import commandPatternn.*;
 
 public class decreaseTemperature implements Command {
 	private Thermostat thermostat;

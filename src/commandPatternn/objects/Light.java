@@ -1,4 +1,4 @@
-package commandPattern;
+package commandPatternn;
 
 public class Light {
 	private int brightness = 50;

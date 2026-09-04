@@ -1,4 +1,4 @@
-package commandPattern;
+package commandPatternn;
 
 public class Tv {
 	private int channel = 1;
