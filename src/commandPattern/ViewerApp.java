@@ -1,5 +1,8 @@
 package commandPattern;
 
+import commandPattern.methodCommands.*;
+import commandPattern.objects.*;
+
 public class ViewerApp {
 	public static void main(String[] args){
 		Tv tv = new Tv();
@@ -8,7 +11,7 @@ public class ViewerApp {
 		MusicPlayer musicPlayer = new MusicPlayer();
 		RemoteControl remote = new RemoteControl();
 
-		//testing devices
+		// Tester
         System.out.println("Tv:");
         remote.setCommand(new onTv(tv));
         remote.clickButton();

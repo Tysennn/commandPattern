@@ -1,4 +1,7 @@
-package commandPattern;
+package commandPattern.methodCommands;
+
+import commandPattern.objects.*;
+import commandPattern.*;
 
 public class onTv implements Command {
 

@@ -1,4 +1,7 @@
-package commandPattern;
+package commandPattern.methodCommands;
+
+import commandPattern.objects.*;
+import commandPattern.*;
 
 public class channelChange implements Command {
 	private Tv tv;

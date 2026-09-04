@@ -1,4 +1,7 @@
-package commandPattern;
+package commandPattern.methodCommands;
+
+import commandPattern.objects.*;
+import commandPattern.*;
 
 public class brightnessAdjust implements Command {
 	private Light light;
