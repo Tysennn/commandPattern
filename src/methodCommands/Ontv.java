@@ -1,9 +1,9 @@
 package commandPattern;
 
-public class PowerOn implements Command {
+public class onTv implements Command {
 
 	private Tv tv;
-	public PowerOn(Tv tv){
+	public onTv(Tv tv){
 		this.tv = tv;
 	}
 	@Override

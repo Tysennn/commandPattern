@@ -1,9 +1,9 @@
 package commandPattern;
 
-public class PowerOff implements Command {
+public class offTv implements Command {
 	private Tv tv;
 
-	public PowerOff(Tv tv){
+	public offTv(Tv tv){
 		this.tv = tv;
 	}
 
